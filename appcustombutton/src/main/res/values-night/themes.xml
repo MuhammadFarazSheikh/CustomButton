@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SampleApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomButtonThemeWithBoder" parent="android:Theme">
+        <item name="customButtonBackgroundStyle">@drawable/button_background_rounded_corner</item>
+        <item name="customButtonTitleTextColor">@color/purple_700</item>
+        <item name="customButtonSubTitleTextColor">@color/nepal_color</item>
+        <item name="customButtonTitleTextStyle">normal</item>
+        <item name="customButtonSubTitleTextStyle">normal</item>
+        <item name="customButtonTitleTextSize">12</item>
+        <item name="customButtonSubTitleTextSize">12</item>
+        <item name="buttonDrawableLeftWidth">60dp</item>
+        <item name="buttonDrawableLeftHeight">60dp</item>
+        <item name="android:foreground">@drawable/ripple_animation</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="CustomButtonThemeWithoutBoder" parent="android:Theme">
+        <item name="customButtonBackgroundStyle">@drawable/button_background_without_border</item>
+        <item name="customButtonTitleTextColor">@color/white</item>
+        <item name="customButtonSubTitleTextColor">@color/white</item>
+        <item name="customButtonTitleTextSize">12</item>
+        <item name="customButtonSubTitleTextSize">12</item>
+        <item name="customButtonTitleTextStyle">normal</item>
+        <item name="customButtonSubTitleTextStyle">normal</item>
+        <item name="buttonDrawableLeftWidth">60dp</item>
+        <item name="buttonDrawableLeftHeight">60dp</item>
+        <item name="android:foreground">@drawable/ripple_animation</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+</resources>

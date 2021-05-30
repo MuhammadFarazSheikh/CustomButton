@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomizableGenericButton">
+        <attr name="titleText" format="string" />
+        <attr name="subTitleText" format="string" />
+        <attr name="buttonDrawableLeft" format="reference" />
+        <attr name="buttonDrawableLeftWidth" format="dimension" />
+        <attr name="buttonDrawableLeftHeight" format="dimension" />
+        <attr name="customButtonBackgroundStyle" format="reference" />
+        <attr name="customButtonTitleTextStyle" format="integer" >
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="customButtonSubTitleTextStyle" format="integer" >
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="customButtonTitleTextColor" format="color" />
+        <attr name="customButtonSubTitleTextColor" format="color" />
+        <attr name="customButtonTitleTextSize" format="float" />
+        <attr name="customButtonSubTitleTextSize" format="float" />
+    </declare-styleable>
+
+</resources>
